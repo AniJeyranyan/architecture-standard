@@ -70,7 +70,7 @@ Requirements for the MVP of online deposit applications through the **website** 
 
 ## Load model (assumption)
 
-The business has not given load figures yet. The model below is the sizing basis for P1, P3, P4 and P5 until the business confirms it. The daily figures already include 10× headroom over the expected first-year demand. RPS = daily volume × 15% (share of the peak hour) ÷ 3600 × 5 (burst factor inside the hour). The target is the calculated value rounded up with extra margin, and never below a minimum sizing of 5 RPS per flow.
+The business has not given load figures yet. The model below is an assumption and the sizing basis for P1–P5 and R2 until the business confirms or corrects it (P5). The daily figures already include 10× headroom over the assumed first-year demand. Peak RPS = daily volume × 15% (share of the peak hour) ÷ 3600 × 5 (burst factor inside the hour). The target is the calculated value rounded up with extra margin, and never below 5 RPS for request flows. The margins are deliberately conservative because demand is unknown and marketing campaigns can cause spikes. The ABS row is a limit (P4), not a sizing target.
 
 | Flow | Basis (per day) | Calculated peak | Target peak load |
 |------|-----------------|-----------------|------------------|
